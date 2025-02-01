@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 10px solid;
+            width: 150px;
+            height: 150px;
+            background: pink;
+            transition-property: width,height,background;
+            transition-duration: 2s,2s,2s,;
+            transition-timing-function: linear;
+            /* transition-property: width,height,background 2s,2s,2s;
+            transition: all 2s; */
+        }
+        .box img{
+            width: 150px;
+            height: 150px;
+        }
+        .box:hover{
+            width: 300px;
+            height: 300px;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>Transition</h1>
+    <div>
+        <img src="https://scontent.fbho4-3.fna.fbcdn.net/v/t39.30808-6/472762826_3062413157232108_5846247712400194416_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=QqRkhZM35O0Q7kNvgHcTUms&_nc_zt=23&_nc_ht=scontent.fbho4-3.fna&_nc_gid=A738JO0Si0eygCvmMnQJwRJ&oh=00_AYDeHVb8--RC4Iv7-3NOqBDNkk9TNBT5GMGnmGb2eAATVw&oe=6785966D" alt="" class="box">
+    </div>
+    
+</body>
+</html>

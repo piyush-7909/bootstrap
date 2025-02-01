@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        .a{
+            width: 300px;
+            height: 100px;
+            border: 11px solid red;
+            color: white;
+            text-align: center;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="a" data-aos="flip-left"></div> <br><br>
+    <div class="a" data-aos="zoom-in-right"></div> <br><br>
+    <div class="a" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+</div><br><br>
+
+<div class="a" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+</div>
+
+
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
+    
+</body>
+</html>

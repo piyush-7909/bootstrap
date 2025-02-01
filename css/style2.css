@@ -1,0 +1,18 @@
+.weblogo{
+    width: 65px;
+}
+.navbar{
+    background-color: #000000a6 !important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 400px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.navbar-nav li:hover{
+    background: orange;
+}
